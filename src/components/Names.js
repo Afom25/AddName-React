@@ -8,7 +8,7 @@ const Names = ({names,deleteName}) => {
             <div><h4>Name: {name.name} </h4></div><br></br>
             <div>Age: {name.age} </div>
             <div>Level: {name.level}</div>
-            <button type="button" className="btn btn-primary" onClick={() =>{deleteName(name.id)}}> Delete name</button>
+            <button type="button" className="btn btn-danger" onClick={() =>{deleteName(name.id)}}> Delete name</button>
             </div>
 
         )

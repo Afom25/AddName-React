@@ -27,7 +27,7 @@ class Addform extends Component {
                     <label htmlFor="name">Level:</label>
                     <input htmlFor="name" id="level" onChange={this.handleChange}/>
                     <br></br>
-                    <button type="button" className="btn btn-dark">Submit</button>
+                    <button>Submit</button>
 
 
                 </form>
